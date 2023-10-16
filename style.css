@@ -1,0 +1,57 @@
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: linear-gradient(50deg,red,purple);
+    font-size: 15px;
+    user-select: none; /* Standard syntax */
+    
+}
+
+.Combining-Div{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.User{
+    width: 250px;
+    height: 120px;
+    background-color: white;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-right: 30px;
+   
+   }
+   .Users-List{
+    height: 1000px;
+   }
+   .Posts-Container{
+    width: 70%;
+    height: 1000px;
+   }
+   .Posts{
+    width: 90%;
+    margin: 0, auto;
+   }
+   .post{
+    background-color: white;
+    border-radius: 30px;
+    font-size: 20px;
+    padding-left: 20px;
+    box-shadow: 0px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+   }
+   .User-Selected{
+    border: solid #ff6200 10px;
+   }
+   button{
+    margin-bottom: 20px;
+    margin-left: 80px;
+   }
